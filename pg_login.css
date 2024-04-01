@@ -1,12 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #a8a6a675;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.logo {
+    background-image: url('logoteste.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
 }
 
 form {
