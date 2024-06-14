@@ -2,31 +2,58 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #a8a6a675;
+    background-color:  #899ebe;
 }
 
 header {
-    background-image: linear-gradient( to right, rgb(12, 20, 95), rgb(33, 118, 197)  ); 
+    background-color:#627ea8 ; 
     color: #fff; 
-    padding: 10px; 
+    padding: 4px; 
+    height: 110px;
+
   
-    
 }
 
 .header-content{
     display: flex;
     justify-content: space-between;
-    
-
+    font-size: 20px;
+}
+.destaq{
+    left: 41%;
+    font-family:'Times New Roman', Times, serif;
+    height: 100px;
+}
+.titulo{
+    font-size: 35px;   
+    font-family:'Times New Roman', Times, serif;
+   
+}
+.gender-link {
+    margin-right: 20px; 
+    left: 500px;
+    position: relative;
 }
 
+.gender-link a {
+    color: #fff;
+    background-color: #333; /* Cor de fundo do botão */
+    padding: 8px 16px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.gender-link a:hover {
+    background-color: #555; /* Cor de fundo do botão em hover */
+}
 .logo {
     width: 150px; 
-    height: 150px; 
+    height: 120px; 
     background-image: url('mclogobran.png'); 
     background-size: contain; 
     background-repeat: no-repeat; 
 }
+
 
 .user-links a {
     color: #fff;
@@ -84,8 +111,10 @@ h1 {
     font-weight: bold;
     color: #333;
 }
+
+
 footer {
-    background-image: linear-gradient( to right, rgb(12, 20, 95), rgb(33, 118, 197)  ); 
+    background-color:#627ea8 ; 
     color: #fff;
     padding: 20px;
     text-align: center;
