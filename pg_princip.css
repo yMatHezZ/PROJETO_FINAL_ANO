@@ -18,20 +18,21 @@ header {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    color: black;
 }
 .destaq{
-    left: 41%;
     font-family:'Times New Roman', Times, serif;
-    height: 100px;
+    text-align: center;
+    font-size: large;
 }
 .titulo{
     font-size: 35px;   
     font-family:'Times New Roman', Times, serif;
-   
+   text-align: center;
 }
 .gender-link {
     margin-right: 20px; 
-    left: 500px;
+  text-align: center;
     position: relative;
 }
 
@@ -44,12 +45,12 @@ header {
 }
 
 .gender-link a:hover {
-    background-color: #555; /* Cor de fundo do botão em hover */
+    background-color: #817b7b; /* Cor de fundo do botão em hover */
 }
 .logo {
     width: 150px; 
     height: 120px; 
-    background-image: url('mclogobran.png'); 
+    background-image: url('logoteste.png'); 
     background-size: contain; 
     background-repeat: no-repeat; 
 }
