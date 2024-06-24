@@ -3,33 +3,17 @@
 
     if(isset($_POST['submit']))
     {
-        // print_r('Nome: ' . $_POST['nome']);
-        // print_r('<br>');
-        // print_r('Email: ' . $_POST['email']);
-        // print_r('<br>');
-        // print_r('Telefone: ' . $_POST['telefone']);
-        // print_r('<br>');
-        // print_r('Sexo: ' . $_POST['genero']);
-        // print_r('<br>');
-        // print_r('Data de nascimento: ' . $_POST['data_nascimento']);
-        // print_r('<br>');
-        // print_r('Cidade: ' . $_POST['cidade']);
-        // print_r('<br>');
-        // print_r('Estado: ' . $_POST['estado']);
-        // print_r('<br>');
-        // print_r('Endereço: ' . $_POST['endereco']);
-
+      
         include_once('config.php');
 
         $nome = $_POST['nome'];
-        $email = $_POST['email'];
         $senha = $_POST['senha'];
+        $email = $_POST['email'];
         $data_nascimento = $_POST['data_nascimento'];
 
-        $result = mysqli_query($conexao, "INSERT INTO Usuarios(nome,senha,email, data_nascimento) 
-        VALUES ('$nome','$senha','$email','$data_nascimento')");
+        $result = mysqli_query($conexao, "INSERT INTO Usuarios(nome, senha, email, data_nascimento) VALUES ('$nome','$senha','$email','$data_nascimento')");
 
-        header('Location: Pg_login.php');
+        header('Location: pg_cadastro.php');
     }
 
 ?>
@@ -59,7 +43,7 @@
         <input type="date" id="data_nascimento" name="data_nascimento" required>
 
 
-        <button type="submit" href="PG_PRINCIPAL.php">Cadastrar</button>
+        <button type="submit" >Cadastrar</button>
     </form>
 
 </body>
