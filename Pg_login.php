@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,7 +10,7 @@
 <body>
     <div class="logo"></div>
   <div1 class="div2">Login</div1>
-    <form action="#" method="post">
+    <form action="testeLogin.php" method="post">
         
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" required>
@@ -19,7 +20,7 @@
 
 
 
-        <button type="submit">Entrar </button>
+        <button type="submit" >Entrar </button>
     </form>
 
 </body>
