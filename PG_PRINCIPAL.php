@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pg Inicial</title>
     <link rel="stylesheet" type="text/css" href="pg_princip.css" media="screen" />
+    <script src=”principal.js”></script>
 
-
+<script>
+    // Função para redirecionar para outra página
+function redirecionarParaOutraPagina() {
+    // Substitua 'URL_DA_PAGINA_DESTINO' pela URL para onde deseja redirecionar
+    window.location.href = 'carrinho.php';
+}
+function redirecionarParaOutraPagina1() {
+    // Substitua 'URL_DA_PAGINA_DESTINO' pela URL para onde deseja redirecionar
+    window.location.href = 'pg_cadastro.php';
+}
+    </script>
 </head>
 <body>
     
@@ -16,24 +27,23 @@
         <div class="header-content">
             <div class="logo"></div>
             <div>
-            <div class="titulo">Bem Vindo a MC</div>
+        
             <div class="destaq"><h2 >Produtos em Destaque</h2>  </div>
             </div>
         <div class="user-links">
-                <a href="carrinho.html">Carrinho</a><br>
-                <a href="entrar.html">Entrar</a>
-            </div>
+        <div class= carrinho> <img src="carrinho.png" alt="Descrição da Imagem" onclick="redirecionarParaOutraPagina()"> </div>
+        <div class= user><img src="user.jpg" alt="Descrição da Imagem" onclick="redirecionarParaOutraPagina1()"></div>
         </div>
         
     </header>
     <div class="container">
         <div class="gender-link">
-            <a href="pg_feminina.html">Feminino</a>
+            <a href="pg_feminina.php">Feminino</a>
         </div><br>
        
         <div class="product">
             <div class="product-item">
-                <a href="detalhes_produto.html">
+                <a href="detalhes_produto.php">
                     <div class="product-image" style="background-image: url('camiseta_preta1.jpg');"></div>
                     <div class="product-details">
                         <h3 class="product-title">Camiseta Preta</h3>
@@ -42,7 +52,7 @@
                 </a>
             </div>
             <div class="product-item">
-                <a href="jeandtl.html">
+                <a href="jeandtl.php">
                 <div class="product-image" style="background-image: url('calcajeans1.jpg');"></div>
                 <div class="product-details">
                     <h3 class="product-title">Relógio IWC </h3>
@@ -51,7 +61,7 @@
             </a>
             </div>
             <div class="product-item">
-                <a href="detalhes_produto.html">
+                <a href="detalhes_produto.php">
                 <div class="product-image" style="background-image: url('moletompuma.jpg');"></div>
                 <div class="product-details">
                     <h3 class="product-title">Moletom Puma</h3>
@@ -60,7 +70,7 @@
             </a>
             </div>
             <div class="product-item">
-                <a href="moletommerc.html">
+                <a href="moletommerc.php">
                 <div class="product-image" style="background-image: url('moletommercedes.jpg');"></div>
                 <div class="product-details">
                     <h3 class="product-title">Corrente Cruz</h3>
@@ -69,7 +79,7 @@
             </a>
             </div>
             <div class="product-item">
-                <a href="detalhes_produto.html">
+                <a href="detalhes_produto.php">
                 <div class="product-image" style="background-image: url('calcanike.jpeg');"></div>
                 <div class="product-details">
                     <h3 class="product-title">Calça Moletom Nike</h3>
@@ -78,7 +88,7 @@
             </a>
             </div>
             <div class="product-item">
-                <a href="jaqueta.html">
+                <a href="jaqueta.php">
                 <div class="product-image" style="background-image: url('jaquetadecouro.jpg');"></div>
                 <div class="product-details">
                     <h3 class="product-title">Jaqueta de Couro</h3>
