@@ -1,12 +1,13 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #a29d7f  ; 
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     height: 100vh;
+    
 }
 .logo {
     background-image: url('logoteste.png');
@@ -20,6 +21,8 @@ body {
 }
 
 form {
+   
+    display: inline-block;
     background-color: #d2ceb7 ;
     padding: 20px;
     border-radius: 8px;
