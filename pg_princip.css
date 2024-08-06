@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:  #899ebe;
+    background-color:  #9dd5d1;
 }
 
 header {
-    background-color:#627ea8 ; 
+    background-color:#84bfb9; 
     color: #fff; 
     padding: 4px; 
     height: 110px;
@@ -16,7 +16,7 @@ header {
 
 .header-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 20px;
     color: black;
 }
@@ -55,11 +55,16 @@ header {
     background-repeat: no-repeat; 
 }
 
+.user-links{
+    display: flex;
+    gap: 20px;
+}
 
 .user-links a {
     color: #fff;
     text-decoration:wavy; 
     top: 100px;
+   
 }
 
 .user-links a:hover {
@@ -115,7 +120,7 @@ h1 {
 
 
 footer {
-    background-color:#627ea8 ; 
+    background-color:#84bfb9; 
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -124,3 +129,18 @@ footer {
     width: 100%;
 }
 
+.carrinho{
+    width: 95px;
+    height: 95px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.carrinho img{
+    height: 80px;
+
+}
+
+.user img{
+    height: 80px;
+}
